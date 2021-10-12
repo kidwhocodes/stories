@@ -1,12 +1,42 @@
-print("LANDLADY SURVIVAL. This game contains 0 graphics because I have no idea how to use them")
-print("This story picks up from the end of the short story, ,The Landlady, where the main character Billy Weaver is just about to take a sip of tea. Upon his first sip of tea, Billy tastes a light scent of bitter almonds.") 
-Awn1 = input("Here are your options. 1.) Drink the full cup of tea. 2.) Spit the sip of tea at the Landlady and throw the cup to the floor. 3.) Tell the Landlady you are not in the mood for tea and try to distract her with small talk.")
+print("A Belle Dame Trope")
+print("This story follows a version of you, in the 1930s, looking for a job. You need money to pay rent, and are willing \
+to work any job.") 
 
-if Awn1 == '1':
-    print("You drink the full cup of tea. A few minutes later, as you are heading up to your room, you fall to the ground. You never wake up. KO")
-elif Awn1 == '2':
-    Awn11 = input("You spit the tea at the Landlady and throw the cup to the floor. You yell at the lady for trying to poison you and just as you turn around, you hear the cock of a rifle. Do you 1) Turn around and look the Landlady in the eyes, 2) Duck behind a couch, or 3) Run like mad for the door.")
-elif Awn1 == '3':
-    Awn12 = input("After tasting the tea, you sit the cup of tea on the table (after spitting the sip you tasted back in) and tell the Landlady you are not in the mood for tea. After engaging in small talk, you walk upstairs. You can either 1) Try to escape now. 2) Try to escape tommorow")
+q1 = input("Walking down a wet street, you stumble upon a ok-looing inn that says, Looking for worker to clean tables. \
+You decide to 1) Walk into the inn and take the job or 2) Walk away. ")
+if q1 == '2':
+    print("As you walk away, you realize that you need the money. Turning around, you head into the inn.")
+
+print("Walking inside, you see that the walls are damaged and inn has not been cleaned.")
+q2 = input("She says, Welcome to the job! I'm Dorthy. The mop and soap are in the corner. Confused about how she knew you were \
+here for the job, you 1) Ignore your confusion and ask how high your pay is or 2) Ask how she knew what you came to the inn for.")
+
+if q2 == '1':
+    q3 = input("Responding, Dorthy says, I will pay you a shilling an hour ($70 an hour in today's money). Is that enough payment?\
+    y/n")
+elif q2 == '2':
+    q3 = input("I just had a feeling you were here for that. Anyway, payment will be 1 shilling($70 in today's money) an hour.\
+    Is that enough? y/n")
 else:
-    print("Enter Valid Answer")
+    q2 = input("ENTER VALID ANSWER.")
+
+
+if q3 == 'y':
+    print("You graciously accept the payment. Walking to the corner, you start mopping the floor.")
+elif q3 == "n":
+    print("You ask if you can have more , and Dorthy responds, I can add some bonuses like me paying for insurance, if that\
+is ok? Knowing that you hit the jackpot, you immediatly start working.")
+
+q4 = input("Later that day, you are walking to your home. You finally have money to pay the rent. Deciding to celebrate. You can\
+1) Take a good long rest, 2) Go out for a fancy dinner, or 3) Buy some tickets for the cricket game, with your favorite team\
+playing.")
+
+if q4 == '1':
+    print("Heading home, you invite some friends over. After some fun small talk, your friends leave and you sleep soundly")
+elif q4 == '2':
+    print("")
+
+
+
+
+
