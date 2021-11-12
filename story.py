@@ -5,13 +5,8 @@ def print_slow(str):
     for letter in str:
         sys.stdout.write(letter)
         sys.stdout.flush()
-        time.sleep(0.00045)
+        time.sleep(0.045)
     return ""
-
-def death():
-    tr.clear()
-    tr.color('red')
-    tr.write('You died', font = ['Arial', 16, 'normal'])
 
 print_slow("A Belle Dame Trope.")
 print_slow(" \nThis story follows a version of you, in the 1930s, looking for a job. You need money to pay rent, and are willing \
@@ -23,6 +18,7 @@ if q1 == '2':
     print_slow(" \n You turn around and head to your house. ONE MONTH LATER. You are kicked out of your apartment and dragged\
 to a debtors prison. You really should have taken the job.")
     sys.exit()
+
 elif q1 == '1':
     print_slow("Walking inside, you see that the place is in high use and the floor is getting dirty. Clearly it needed \
 a cleaner. Perhaps you could negotiate a good income...")
